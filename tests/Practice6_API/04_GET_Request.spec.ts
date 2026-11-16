@@ -4,6 +4,10 @@ test.use(
     {baseURL:process.env.API_URL}
 )
 test('GET request -get all the apartan ',async ({request})=>{
+
+  // add new comment
+
+  console.log("get all the spartans")
 // get the quest
 
   const requestResponse =await request.get("/api/v2/spartans");
@@ -17,6 +21,7 @@ test('GET request -get all the apartan ',async ({request})=>{
 expect(requestResponse.status()).toBe(200);
 
 console.log("json body"+JSON.stringify(jsonResponse,null,2))
+
 
 
 });
