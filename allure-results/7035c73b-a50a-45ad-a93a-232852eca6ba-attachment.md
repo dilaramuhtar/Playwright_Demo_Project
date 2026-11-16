@@ -1,0 +1,50 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: practice5/05_ParamTest_Json.spec.ts >> login test for laura.taylor123@example.com and test123
+- Location: tests/practice5/05_ParamTest_Json.spec.ts:11:5
+
+# Error details
+
+```
+Error: locator.fill: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('#password')
+
+```
+
+# Test source
+
+```ts
+  1  | import{test,expect} from "@playwright/test";
+  2  | import fs from 'fs';
+  3  | 
+  4  | //reading the data from json file
+  5  |  const jsonpath = "test-data/qa/logindata.json";
+  6  |  const loginData:any = JSON.parse(fs.readFileSync(jsonpath,'utf-8'));
+  7  | 
+  8  | 
+  9  | for (const {email, password,validity} of loginData ){
+  10 | 
+  11 |     test(`login test for ${email} and ${password}`,async({page})=>{
+  12 |         await page.goto("https://demowebshop.tricentis.com/login");
+  13 | 
+  14 |         //fill login form
+  15 | 
+  16 |         await page.locator("#Email").fill(email);
+> 17 |         await page.locator("#password").fill(password);
+     |                                         ^ Error: locator.fill: Target page, context or browser has been closed
+  18 |         await page.locator("input[value='log in']").click();
+  19 |     });
+  20 | 
+  21 | }
+  22 | 
+  23 |  
+  24 | 
+  25 | 
+```

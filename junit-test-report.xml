@@ -1,0 +1,6 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="1.5099199999980628">
+<testsuite name="Practice6_API/10_Mock_API_Response.spec.ts" timestamp="2026-11-13T23:40:47.550Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.839" errors="0">
+<testcase name="Mock API response test" classname="Practice6_API/10_Mock_API_Response.spec.ts" time="0.839">
+</testcase>
+</testsuite>
+</testsuites>

@@ -1,0 +1,10 @@
+POST API Response :{
+  "message": "Successfully created the Spartan.",
+  "totalElement": 1,
+  "data": {
+    "id": 112,
+    "name": "testSpartan2",
+    "gender": "Female",
+    "phone": "11122233333"
+  }
+}

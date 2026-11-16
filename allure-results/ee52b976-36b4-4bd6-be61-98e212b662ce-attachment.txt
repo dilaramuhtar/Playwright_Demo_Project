@@ -1,0 +1,50 @@
+test from loop: A/B Testing
+test from loop: Add/Remove Elements
+test from loop: Autocomplete
+test from loop: Basic Auth (user and pass: admin)
+test from loop: Broken Images
+test from loop: Challenging DOM
+test from loop: Checkboxes
+test from loop: Context Menu
+test from loop: Disappearing Elements
+test from loop: Drag and Drop
+test from loop: Drag and Drop Circles
+test from loop: Dropdown
+test from loop: Dynamic Content
+test from loop: Dynamic Controls
+test from loop: Dynamic Loading
+test from loop: Entry Ad
+test from loop: Exit Intent
+test from loop: File Download
+test from loop: File Upload
+test from loop: Floating Menu
+test from loop: Forgot Password
+test from loop: Form Authentication
+test from loop: Frames
+test from loop: Geolocation
+test from loop: Horizontal Slider
+test from loop: Hovers
+test from loop: Infinite Scroll
+test from loop: Inputs
+test from loop: JQuery UI Menus
+test from loop: JavaScript Alerts
+test from loop: JavaScript onload event error
+test from loop: Key Presses
+test from loop: Large & Deep DOM
+test from loop: Multiple Buttons
+test from loop: Multiple Windows
+test from loop: Nested Frames
+test from loop: New tab
+test from loop: Notification Messages
+test from loop: Radio Buttons
+test from loop: Redirect Link
+test from loop: Registration Form
+test from loop: Secure File Download
+test from loop: Shifting Content
+test from loop: Sign Up For Mailing List
+test from loop: Slow Resources
+test from loop: Sortable Data Tables
+test from loop: Status Codes
+test from loop: Typos
+test from loop: WYSIWYG Editor
+test from loop: Web Tables
